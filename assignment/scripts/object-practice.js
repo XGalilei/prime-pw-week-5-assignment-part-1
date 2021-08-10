@@ -13,7 +13,7 @@ const me = {
   lastName: 'Bush',
   hasSiblings: true,
   shoeCount: 5, //assuming we're talking about pairs here
-  favThreeFoods: ['cucumber', 'dark chocolate', 'green apple']
+  favThreeFoods: ['cucumber', 'dark chocolate', 'green apple'] //<-- how to fix this?
 };
 console.log('A little about me:', me);
 
@@ -23,7 +23,8 @@ console.log('A little about me:', me);
     created above to set its value.
   - Console.log fullName
 */
-
+let fullName = `${me.firstName} ${me.lastName}`;
+console.log(fullName);
 
 
 /* 3. Nested arrays
